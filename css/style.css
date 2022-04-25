@@ -1,0 +1,259 @@
+/* Основные настройки */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /* text-decoration: none; */
+    list-style: none;
+}
+
+@font-face {
+    font-family: myfont;
+    src: url('../font/Raleway-Medium.ttf');
+}
+
+body {
+    font-family: myfont;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+h2 {
+    font-size: 3.5vw;
+}
+
+p {
+    font-size: 1.7vw;
+}
+
+/* Первый блок */
+#block1 {
+    padding: 5vw;
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+
+}
+
+/* Второй блок */
+#block2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-image: url('../image/gradient.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#block2>* {
+    padding: 5vw;
+}
+
+#block2>article>* {
+    margin: 1vw;
+}
+
+#block2>article>img {
+    width: 30vw;
+}
+
+#block2>article>button {
+    padding: 1vw 4vw;
+    background-color: black;
+    color: white;
+    border-radius: 3vw;
+}
+
+/* Третий блок */
+#block3>article {
+    margin: 1vw;
+    justify-content: space-between;
+
+}
+
+#block3>article>a {
+    color: black;
+    font-size: 1.7vw;
+}
+
+.photoimg {
+    width: 28vw;
+}
+
+#block3>article>div {
+    margin: 1vw;
+    background-color: #dedde6;
+}
+
+#block3>article>div>p {
+    width: 50%;
+}
+
+/* Четвертый блок */
+#block4 {
+    height: 50vw;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-image: url('../image/8.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#block4>* {
+    padding: 5vw;
+}
+
+#block4>article>img {
+    width: 30vw;
+}
+
+#block4>article {
+    flex-direction: column;
+    justify-content: center;
+}
+
+#block4>article>div>button {
+    margin: 3vw 0;
+    padding: 1vw 4vw;
+    background-color: black;
+    color: white;
+    border-radius: 3vw;
+}
+
+/* Пятый блок */
+#block5 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+#block5>* {
+    padding: 5vw;
+}
+
+.nova>* {
+    padding: 1vw;
+}
+
+#block5>article>img {
+    width: 45vw;
+}
+
+.circles {
+    display: flex;
+}
+
+.circle {
+    margin: 1vw;
+    width: 3vw;
+    height: 3vw;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+}
+
+.flexprice {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+#block5>article>div>button {
+    margin: 1vw 0;
+    padding: 1vw 4vw;
+    background-color: black;
+    color: white;
+    border-radius: 3vw;
+}
+
+/* шестой блок */
+#block6 {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    background-image: url('../image/gradient.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title>* {
+    text-align: center;
+}
+
+#block6>article>div>button {
+    margin: 1vw 0;
+    padding: 1vw 4vw;
+    background-color: black;
+    color: white;
+    border-radius: 3vw;
+}
+
+#block6>article>img {
+    margin: 3vw;
+    width: 12vw;
+}
+
+/* Седьмой блок */
+#block7 {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+
+#block7>article>img {
+    width: 55vw;
+}
+
+.list>* {
+    justify-content: start;
+
+}
+
+.list>div>img {
+    margin: 1vw;
+}
+
+.list>div>p {
+    margin: 3vw;
+}
+
+/* Восьмой блок */
+#block8 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-image: url('../image/gradient.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#block8>* {
+    padding: 5vw;
+}
+
+form {
+    flex-direction: column;
+}
+
+input {
+    padding: 1vw;
+    border: 1px solid rgb(193, 190, 190);
+    border-radius: 1vw;
+}
+
+#block8>article>img {
+    width: 40vw;
+}
+#block8>article>button {
+    margin: 1vw 0;
+    padding: 1vw 4vw;
+    background-color: black;
+    color: white;
+    border-radius: 3vw;
+}
